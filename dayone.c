@@ -19,6 +19,12 @@ int main()
 
     int a;
     a=gs>50000;
-    printf("\nif gross salary is above 50000 : %d",a);
+    printf("\nif gross salary is above 50000 : %d\n",a);
+
+    float ms;
+    ms= gs/12;
+    printf("\nMonthly Salary = %.2f\n",ms);
+    
     return 0;
+
 }

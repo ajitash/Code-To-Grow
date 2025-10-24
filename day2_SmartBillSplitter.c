@@ -17,4 +17,5 @@ int main()
     printf("\nperson 2 = %.3f\n",p2);
     printf("\nperson 3 = %.3f\n",p3);
     return 0;
+
 }

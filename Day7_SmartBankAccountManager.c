@@ -15,7 +15,7 @@ int main()
         { printf("\nEnter amount to deposite: ");
           scanf("%d",&dm);
           bal=bal+dm;
-          if (dm>2500)
+          if (dm>25000)
             { bonus=dm*0.01;//for 1% bonus
               bal=bal+bonus;
               printf("Bonus of Rs %d added!",bonus);}
@@ -38,3 +38,4 @@ int main()
      printf("\nThank you for banking with us!");//exit statement
      return 0;
 }
+

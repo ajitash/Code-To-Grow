@@ -23,13 +23,13 @@ int main() {
 
     for(a = 0; a < count; a = a + 1) {
         printf("\n===== Enter details for Product #%d =====\n", a + 1);
-        printf("Product Name (no spaces): ");
+        printf("Product Name: ");
         scanf("%30s", names[a]);
         printf("Product ID: ");
         scanf("%d", &ids[a]);
-        printf("Product Stock (Quantity): ");
+        printf("Product Stock: ");
         scanf("%d", &stocks[a]);
-        printf("Product Price (per unit): ");
+        printf("Product Price: ");
         scanf("%d", &prices[a]);
     }
 

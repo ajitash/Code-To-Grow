@@ -1,3 +1,7 @@
+//Name: M.Naga Ajitesh
+//Rg n.o: AP25110090150
+
+
 #include <stdio.h>
 
 int ID[30];
